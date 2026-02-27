@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KIRUTHIGA.B
+* **Register Number**: 212224040160
+* **Date of Submission**: 27.02.2026
 
 ---
 
@@ -96,33 +96,38 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. Explored the AWS EC2 dashboard and reviewed sections like Instances, AMIs, Instance Types, Key Pairs, Security Groups, and Elastic IPs to understand their functions.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
----
+2. Launched a new Amazon Linux 2 EC2 instance using the t2.micro free-tier instance type and configured basic settings including instance name and key pair.
+
+
+3. Created and configured a security group to allow SSH (Port 22) from my IP address and HTTP (Port 80) from anywhere to control inbound traffic.
+
+
+4. Connected to the running EC2 instance using SSH with the downloaded key pair and verified successful login to the server.
+
+
+5. Performed instance operations such as stop, start, reboot, monitored performance metrics, and finally terminated the instance to prevent unnecessary charges.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1919" height="924" alt="Screenshot 2026-02-26 184809" src="https://github.com/user-attachments/assets/55ac53a9-f4d4-4bb5-b02e-0e2c694f6848" />
 
----
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
 
----
+<img width="1914" height="984" alt="Screenshot 2026-02-26 185334" src="https://github.com/user-attachments/assets/404a2cf4-2e2c-4971-be5b-1590312dc015" />
+
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1917" height="926" alt="Screenshot 2026-02-26 191009" src="https://github.com/user-attachments/assets/b9b3f3b1-2aad-475d-bb9b-8c69c760e4ba" />
+
 
 ---
 
