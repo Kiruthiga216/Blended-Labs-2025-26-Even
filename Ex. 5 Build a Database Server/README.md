@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: KIRUTHIGA.B
+* **Register Number**: 212224040160
+* **Date of Submission**:27.02.2025
 
 ---
 
@@ -82,35 +82,37 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Launched an Amazon Linux 2 EC2 instance with appropriate instance type, key pair, and security group.
 
----
+2. Configured the security group to allow SSH (22) and database port (MySQL 3306/PostgreSQL 5432) access.
+
+3. Connected to the EC2 instance via SSH from my local machine.
+
+4. Installed a database server (MySQL/MariaDB/PostgreSQL) using package manager commands.
+
+5. Started the database service, set root password, and configured user privileges.
+
+6. Created a sample database and table, and inserted test records.
+
+7. Verified database connectivity by executing basic SQL queries locally and remotely.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1917" height="994" alt="Screenshot 2026-02-27 083536" src="https://github.com/user-attachments/assets/3f46a8a2-8a52-43f1-8ee3-5a1b1ad62b83" />
 
----
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="983" alt="Screenshot 2026-02-27 083911" src="https://github.com/user-attachments/assets/4bfeb564-8a87-4d39-b15f-6a3a61b9d32c" />
 
----
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="1089" alt="Screenshot 2026-02-27 090408" src="https://github.com/user-attachments/assets/9787dbe6-17a2-4dbd-80a3-59b02b64bd4e" />
 
----
 
 ## Result
 
