@@ -3,7 +3,12 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+
+### Author : KIRUTHIGA.B
+
+### Reg no :212224040160 
+
+### Date : 10.3.2026
 
 ---
 
@@ -66,14 +71,55 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+
+1. **Review Existing Architecture**  
+   - Examine the current EC2 setup, note AMI, instance type, security groups, and user data.  
+   - Identify limitations such as single‑instance bottlenecks or lack of scaling.
+
+2. **Create a Launch Template**  
+   - Define EC2 configuration (AMI, instance type, security group, user data).  
+   - Save the template for reuse in Auto Scaling operations.
+
+3. **Create an Auto Scaling Group (ASG)**  
+   - Use the launch template to build the ASG.  
+   - Configure minimum, maximum, and desired capacity, and select availability zones.
+
+4. **Configure an Application Load Balancer (ALB)**  
+   - Create the ALB with listeners (HTTP/HTTPS).  
+   - Define target groups and health checks for routing traffic.
+
+5. **Register Auto Scaling Group with Load Balancer**  
+   - Attach the ASG to the ALB’s target group.  
+   - Ensure instances launched by ASG are automatically registered and monitored.
+
+6. **Configure Scaling Policies**  
+   - Set CloudWatch alarms to trigger scaling actions.  
+   - Example: scale out when CPU > 70%, scale in when CPU < 30%.
+
+7. **Test Load Balancing and Scaling**  
+   - Generate traffic using tools (e.g., JMeter, Locust).  
+   - Observe ALB distributing requests and ASG adjusting capacity automatically.
 
 ---
+
 
 ## Output Screenshots 
 
 
----
+<img width="1919" height="988" alt="Screenshot 2026-03-04 101200" src="https://github.com/user-attachments/assets/67d87136-fd45-4645-a434-1819c17369df" />
+
+
+<img width="1919" height="995" alt="Screenshot 2026-03-04 101458" src="https://github.com/user-attachments/assets/879b0b7f-e309-405f-9fc1-51524f23a2fc" />
+
+
+<img width="1919" height="986" alt="Screenshot 2026-03-04 102223" src="https://github.com/user-attachments/assets/797fd7c3-f009-43dc-8d8f-4876bd30210d" />
+
+
+<img width="1919" height="978" alt="Screenshot 2026-03-04 104426" src="https://github.com/user-attachments/assets/c4b1abed-1145-4651-9cdd-54001fc4085a" />
+
+
+
+
 
 
 ## Result
